@@ -8,7 +8,8 @@ import Login from './Pages/Login';
 import Electronics from './Pages/Electronics'
 import Furniture from './Pages/Furniture'
 import Registration from './Pages/Registration';
-import AddBook from './Pages/AddBook';
+import ViewUserProfile from './Pages/ViewUserProfile';
+
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
       <Route path='/Furniture' element={<Furniture/>}></Route>
       <Route path='/Login' element={<Login/>}></Route>
       <Route path='/Registration' element={<Registration/>}></Route>
-      <Route path='/AddBook' element={<AddBook/>}></Route>
+      <Route path='/ViewUserProfile' element={<ViewUserProfile/>}> </Route>
       
+
     </Routes>
     </>
   );
